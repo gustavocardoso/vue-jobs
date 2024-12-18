@@ -1,0 +1,18 @@
+<script setup>
+import { RouterLink } from 'vue-router'
+</script>
+
+<template>
+  <section>
+    <div class="container m-auto py-6 px-6">
+      <RouterLink
+        to="/jobs"
+        class="text-green-500 hover:text-green-600 transition-colors flex items-center gap-2 px-4"
+      >
+        <i class="pi pi-arrow-circle-left"></i> Back to Job Listings
+      </RouterLink>
+    </div>
+  </section>
+</template>
+
+<style scoped></style>
